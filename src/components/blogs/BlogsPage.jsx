@@ -1,7 +1,32 @@
 import React from "react";
-import "../styles/blogspage.css";
+import "../styles/mainblogspage.css";
+import { blogs } from "./Blogs";
 
-export default function BlogsPage(props) {
+function BlogContainer() {
+  const objectItems = blogs.map((blog) => {
+    return (
+      <div className="blog-containers">
+        <div
+          className="blog-image"
+          style={{
+            backgroundImage: `url(${blog.image})`,
+            backgroundRepeat: "no-repeat",
+            backgroundSize: "cover",
+            backgroundPosition: "center",
+            alt: `${blog.alt}`,
+          }}
+          onClick={() => {
+            window.open("/lotf-review", "_blank");
+          }}
+        ></div>
+        <div className="blog-captions">{blog.title}</div>
+      </div>
+    );
+  });
+  return objectItems;
+}
+
+export default function BlogsPage() {
   return (
     <div>
       <div className="blogs-header">
@@ -40,18 +65,7 @@ export default function BlogsPage(props) {
         </div>
       </div>
       <div className="blog-cards">
-        <div id="blog-1-container" class="blog-containers">
-          <div className="blog-1-image"></div>
-          <div className="blog-1-caption"></div>
-        </div>
-        <div id="blog-2-container" class="blog-containers">
-          <div className="blog-2-image"></div>
-          <div className="blog-2-caption"></div>
-        </div>
-        <div id="blog-3-container" class="blog-containers">
-          <div className="blog-3-image"></div>
-          <div className="blog-3-caption"></div>
-        </div>
+        <BlogContainer />
       </div>
     </div>
   );

@@ -32,15 +32,29 @@
 }
 
 .blog-cards {
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
+  display: grid;
+  grid-template-columns: repeat(3, 25%);
+  grid-column-gap: 2rem;
+  grid-row-gap: 2rem;
+  justify-content: center;
 }
 
 .blog-containers {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.blog-captions {
+  font-family: "Libre Franklin", sans-serif;
+  text-align: center;
+  margin-top: 1rem;
+}
+.blog-image {
   border: 2px solid black;
   border-radius: 5%;
-  height: 50vh;
-  width: 25%;
-  font-family: "Libre Franklin", sans-serif;
+  height: 60vh;
+}
+
+.blog-image:hover {
+  opacity: 0.8;
 }

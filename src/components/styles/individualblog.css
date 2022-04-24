@@ -1,0 +1,13 @@
+.blog-content-container {
+  font-family: "Libre Franklin", sans-serif;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 2rem;
+}
+.blog-content-container p {
+  width: 50%;
+  margin-top: 2rem;
+}

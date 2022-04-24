@@ -15,7 +15,7 @@ export default function Projects() {
       <div className="project-cards">
         <div className="card-container">
           <div className="cards" id="ig-bot"></div>
-          <div className="card-description" style={{ textAlign: "right" }}>
+          <div className="card-description">
             <h4>Instagram Auto-Liker Bot</h4>
             <p>
               This is admittedly my only major project I have actually finished
@@ -50,7 +50,7 @@ export default function Projects() {
         </div>
         <div className="card-container">
           <div className="cards" id="math-program"></div>
-          <div className="card-description" style={{ textAlign: "right" }}>
+          <div className="card-description">
             <h4>Website for kids to practice basic aritmetic math</h4>
             <p>
               This website is basically the same thing as my iOS app, but it is
@@ -89,7 +89,7 @@ export default function Projects() {
         </div>
         <div className="card-container">
           <div className="cards" id="website"></div>
-          <div className="card-description" style={{ textAlign: "right" }}>
+          <div className="card-description">
             <h4>This Website!</h4>
             <p>
               In my opinion, this website is the biggest project I have done so
@@ -97,8 +97,9 @@ export default function Projects() {
               decided to build this website because I wanted to practice my
               HTML, CSS, and JavaScript skills. But as I realized that having a
               personal website offers many benefits, I decided to add features
-              to it and actually make it nice. I am really proud of this site
-              and hope you are too!
+              to it, use React.js instead of plain HTML, CSS, and JavaScript and
+              actually make it nice. I am really proud of this site and hope you
+              are too!
             </p>
           </div>
         </div>
