@@ -3,7 +3,7 @@ export const Blogs = [
     id: 1,
     title: "Lord of the Flies Book Review",
     image: "images/lotf.jpg",
-    alt: "Lord of the Flies Book Image",
+    alt: "Lord of the Flies Book Review",
     route: "/lotf-review",
   },
   {
