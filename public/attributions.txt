@@ -1,0 +1,64 @@
+Website made using React.js, a Javascript library
+
+Website hosted by
+
+
+
+
+Background Hero Image: 
+
+Photo by 
+<a href="https://unsplash.com/@karmatheux?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">
+Matheus Farias</a> on 
+<a href="https://unsplash.com/s/photos/gradient-background?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">
+Unsplash</a>
+
+
+
+Hero Section Font:
+
+    Handlee by Joe Prince 
+
+Navbar Font:
+
+    Lato by Łukasz Dziedzic
+
+Content Font:
+    Libre Franklin by Impallari Type
+
+
+Email Icon:
+    by Freepik
+    <a href="https://www.flaticon.com/free-icons/mail" title="mail icons">Mail icons created by Freepik - Flaticon</a>
+
+Instagram Icon:
+    by Freekpik
+    <a href="https://www.flaticon.com/free-icons/instagram" title="instagram icons">Instagram icons created by Freepik - Flaticon</a>
+
+Twitter Icon:
+    by Pixel Perfect 
+    <a href="https://www.flaticon.com/free-icons/twitter" title="twitter icons">Twitter icons created by Pixel perfect - Flaticon</a>
+
+
+Blogs Hero Image:
+
+    Photo by <a href="https://unsplash.com/@kellysikkema?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">
+    Kelly Sikkema</a> on 
+    <a href="https://unsplash.com/s/photos/pencil-and-paper?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+  
+
+
+Blog Images:
+
+    Lord of the Flies: https://www.rkikuojohnson.com/lord-of-the-flies
+
+    Freshman AP course studying: Photo by 
+    <a href="https://unsplash.com/@geoffreykang_21?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">
+    Jaeyoung Geoffrey Kang</a> on 
+    <a href="https://unsplash.com/s/photos/studying?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+    
+    Start to learn to code for free: Photo by 
+    <a href="https://unsplash.com/@afgprogrammer?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">
+    Mohammad Rahmani</a> on 
+    <a href="https://unsplash.com/s/photos/coding?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+  

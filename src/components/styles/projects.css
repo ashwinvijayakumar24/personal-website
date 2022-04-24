@@ -1,0 +1,72 @@
+.projects {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 3rem;
+  font-family: "Libre Franklin", sans-serif;
+}
+.projects-text {
+  width: 50%;
+  text-align: center;
+}
+
+.projects-text p {
+  margin-top: 1rem;
+}
+
+.project-cards {
+  width: 100%;
+  margin-top: 1rem;
+}
+
+.cards {
+  border: 2px solid black;
+  border-radius: 5%;
+  height: 60vh;
+  width: 40%;
+  margin-top: 2rem;
+}
+.card-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.card-description {
+  width: 50%;
+}
+
+.card-description p {
+  margin-top: 1rem;
+}
+#ig-bot {
+  background-image: url("../../../public/images/ig-bot-pic.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+#swift-app {
+  background-image: url("../../../public/images/math-app.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+#math-program {
+  background-image: url("../../../public/images/math-program-pic.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+#mini-projects {
+  background-image: url("../../../public/images/mini-project.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+#website {
+  background-image: url("../../../public/images/this-website-pic.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}

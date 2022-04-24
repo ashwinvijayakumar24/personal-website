@@ -1,0 +1,46 @@
+.blogs-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../../../public/images/blogshero.jpg");
+  height: 60vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: black;
+}
+.blogs-content > h1 {
+  font-family: "Handlee", cursive;
+  text-align: center;
+}
+
+.blogs-content > p {
+  font-family: "Handlee", cursive;
+  text-align: center;
+}
+
+.blogs-intro {
+  font-family: "Libre Franklin", sans-serif;
+  margin-top: 1rem;
+  text-align: center;
+  width: 75%;
+  margin: auto;
+  padding: 1rem;
+}
+.blogs-intro p {
+  margin-top: 1rem;
+}
+
+.blog-cards {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.blog-containers {
+  border: 2px solid black;
+  border-radius: 5%;
+  height: 50vh;
+  width: 25%;
+  font-family: "Libre Franklin", sans-serif;
+}

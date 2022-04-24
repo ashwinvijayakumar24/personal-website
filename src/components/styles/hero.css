@@ -1,0 +1,21 @@
+.hero-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../../../public/images/background.jpg");
+  height: 60vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: white;
+}
+
+.hero-content > h1 {
+  font-family: "Handlee", cursive;
+  text-align: center;
+}
+
+.hero-content > p {
+  font-family: "Handlee", cursive;
+  text-align: center;
+}
