@@ -16,7 +16,7 @@ function BlogContainer() {
             alt: `${blog.alt}`,
           }}
           onClick={() => {
-            window.open("/lotf-review", "_blank");
+            window.open(`${blog.route}`, "_blank");
           }}
         ></div>
         <div className="blog-captions">{blog.title}</div>

@@ -8,10 +8,10 @@ export const blogs = [
   },
   {
     id: 2,
-    title: "Studying for AP courses as a freshman",
+    title: "Studying for AP Human Geography",
     image: "images/freshman-ap-study.jpg",
-    alt: "Studying for AP courses as a freshman",
-    route: "/ap-course-freshman-study",
+    alt: "Studying for AP Human Geography",
+    route: "/ap-study-human-geography",
   },
   {
     id: 3,

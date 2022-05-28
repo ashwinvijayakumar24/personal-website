@@ -26,11 +26,11 @@ export default function Projects() {
                 rel="noreferrer"
                 style={{ color: "black" }}
               >
-                Github
+                GitHub
               </a>{" "}
               page. The bot is coded in Python and uses Selenium, an automation
               and testing framework. More details on the use and setup of the
-              bot is on my Github repository.
+              bot is on my GitHub repository.
             </p>
           </div>
         </div>
@@ -51,13 +51,13 @@ export default function Projects() {
         <div className="card-container">
           <div className="cards" id="math-program"></div>
           <div className="card-description">
-            <h4>Website for kids to practice basic aritmetic math</h4>
+            <h4>Website for kids to practice basic arithmetic math</h4>
             <p>
               This website is basically the same thing as my iOS app, but it is
               obviously built as a website. I used vanilla HTML, CSS, and
               JavaScript to develop this site. The site was up previously, but I
-              took it down for some modifications. I am comtemplating on wheter
-              i should keep the site in a website or if should transform the
+              took it down for some modifications. I am contemplating on whether
+              I should keep the site in a website or if should transform the
               site into a web application so users can have much more
               functionality on the webpage. If this site becomes a web
               application, it would realistically take around a year for it to
@@ -80,7 +80,7 @@ export default function Projects() {
                 rel="noreferrer"
                 style={{ color: "black" }}
               >
-                Github
+                GitHub
               </a>{" "}
               page if you want any ideas on simple programming projects.
             </p>
