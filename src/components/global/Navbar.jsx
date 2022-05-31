@@ -12,16 +12,16 @@ export default function NavBar() {
           <img src="images/pfp.png" alt="Profile" height="80px" width="90px" />
         </a>
       </div>
-      <a href="#" id="toggle-button" onClick={handleToggle}>
+      <button id="toggle-button" onClick={handleToggle}>
         <span class="bar"></span>
         <span class="bar"></span>
         <span class="bar"></span>
-      </a>
+      </button>
       <div className="navbar-links" id={isActive ? null : "active"}>
         <ul>
           <li>
             <a href="/#about-me" onClick={handleToggle}>
-              About Me
+              About
             </a>
           </li>
           <li>
