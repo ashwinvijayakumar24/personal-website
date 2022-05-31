@@ -21,7 +21,7 @@ export default function NavBar() {
         <ul>
           <li>
             <a href="/#about-me" onClick={handleToggle}>
-              About
+              About Me
             </a>
           </li>
           <li>
