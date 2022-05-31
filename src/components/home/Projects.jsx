@@ -98,8 +98,16 @@ export default function Projects() {
               HTML, CSS, and JavaScript skills. But as I realized that having a
               personal website offers many benefits, I decided to add features
               to it, use React.js instead of plain HTML, CSS, and JavaScript and
-              actually make it nice. I am really proud of this site and hope you
-              are too!
+              actually make it nice. I am really proud of this site and the{" "}
+              <a
+                href="/blogs"
+                target="_blank"
+                rel="noreferrer"
+                style={{ color: "black" }}
+              >
+                blogs
+              </a>{" "}
+              I post and hope you are too!
             </p>
           </div>
         </div>

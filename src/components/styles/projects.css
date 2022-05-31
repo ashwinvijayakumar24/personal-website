@@ -3,8 +3,10 @@
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
-  margin-top: 3rem;
+  padding-top: 5rem;
+
   font-family: "Libre Franklin", sans-serif;
+  line-height: 2rem;
 }
 .projects-text {
   width: 50%;
@@ -18,8 +20,12 @@
 .project-cards {
   width: 100%;
   margin-top: 1rem;
+  font-family: "Lato", sans-serif;
 }
 
+.project-cards h4 {
+  font-family: "Scada", sans-serif;
+}
 .cards {
   border: 2px solid black;
   border-radius: 5%;
@@ -70,4 +76,62 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+}
+
+/*Extra small devices (phones, 600px and down)*/
+@media only screen and (max-width: 600px) {
+  .card-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1rem;
+  }
+  .projects-text {
+    width: 90%;
+    text-align: center;
+  }
+  .card-description {
+    width: 80%;
+    text-align: center;
+  }
+  .card-description p {
+    margin-top: 0rem;
+  }
+  #ig-bot {
+    display: none;
+  }
+  #swift-app {
+    display: none;
+  }
+  #math-program {
+    display: none;
+  }
+  #mini-projects {
+    display: none;
+  }
+  #website {
+    display: none;
+  }
+}
+@media only screen and (max-width: 1000px) {
+  #ig-bot {
+    height: 20vh;
+    width: 20vh;
+  }
+  #swift-app {
+    height: 20vh;
+    width: 20vh;
+  }
+  #math-program {
+    height: 20vh;
+    width: 20vh;
+  }
+  #mini-projects {
+    height: 20vh;
+    width: 20vh;
+  }
+  #website {
+    height: 20vh;
+    width: 20vh;
+  }
 }

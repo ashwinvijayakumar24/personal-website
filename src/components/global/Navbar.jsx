@@ -1,31 +1,38 @@
-import React from "react";
+import React, { useState } from "react";
 import "../styles/navbar.css";
 export default function NavBar() {
+  const [isActive, setActive] = useState("false");
+  const handleToggle = () => {
+    setActive(!isActive);
+  };
   return (
     <div className="navbar">
       <div className="profile-picture">
         <a href="/">
-          <img
-            src="images/pfp.png"
-            alt="Profile Picture"
-            height="80px"
-            width="90px"
-          />
+          <img src="images/pfp.png" alt="Profile" height="80px" width="90px" />
         </a>
       </div>
-      <div className="navbar-links">
+      <a href="#" id="toggle-button" onClick={handleToggle}>
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </a>
+      <div className="navbar-links" id={isActive ? null : "active"}>
         <ul>
           <li>
-            <a href="/#about-me">About Me</a>
+            <a href="/#about-me" onClick={handleToggle}>
+              About Me
+            </a>
           </li>
           <li>
-            <a href="/#projects">Projects</a>
+            <a href="/#projects" onClick={handleToggle}>
+              Projects
+            </a>
           </li>
           <li>
-            <a href="/blogs">Blogs</a>
-          </li>
-          <li>
-            <a href="/#contact-me">Contact Me</a>
+            <a href="/blogs" onClick={handleToggle}>
+              Blogs
+            </a>
           </li>
         </ul>
       </div>

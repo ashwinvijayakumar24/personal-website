@@ -3,6 +3,7 @@ import "../styles/mainblogspage.css";
 import { blogs } from "./Blogs";
 
 function BlogContainer() {
+  document.title = "Blogs";
   const objectItems = blogs.map((blog) => {
     return (
       <div className="blog-containers">

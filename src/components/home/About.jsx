@@ -7,7 +7,7 @@ export default function About() {
       <div className="about-me-text">
         <h3>About Me</h3>
         <p>
-          Hello! I'm Ashwin Vijayakumar. I am a freshman at Shadow Creek High
+          Hello! I'm Ashwin Vijayakumar. I am a 10th grader at Shadow Creek High
           School in Pearland, Texas, USA. I am the co-founder of Code Wizdom, a
           non-profit organization that aims to provide free programming courses
           to anyone who wants to learn the fundamentals of programming and
@@ -20,9 +20,9 @@ export default function About() {
       </div>
       <img
         src="images/about-me-pic.jpg"
-        alt="My Picture"
-        height="300px"
-        width="300px"
+        alt="My Pic"
+        height="30%"
+        width="30%"
       />
     </div>
   );

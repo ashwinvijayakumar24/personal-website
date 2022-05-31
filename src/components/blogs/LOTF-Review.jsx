@@ -2,6 +2,7 @@ import React from "react";
 import "../styles/individualblog.css";
 
 export default function LOTFReview() {
+  document.title = "Lord of the Flies Book Review";
   return (
     <div className="blog-content-container">
       <h1>Lord of the Flies Review</h1>

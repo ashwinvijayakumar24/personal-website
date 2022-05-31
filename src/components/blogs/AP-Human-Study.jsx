@@ -2,6 +2,7 @@ import React from "react";
 import "../styles/individualblog.css";
 
 export default function APHumanStudy() {
+  document.title = "How to study for AP Human Geography";
   return (
     <div className="blog-content-container">
       <h1>How to Study for AP Human Geography</h1>
@@ -34,8 +35,9 @@ export default function APHumanStudy() {
         as I struggled with those more.
         <br />
         <br />
-        One of my biggest helpers throughout the year was Mr.Sinn, a youtuber
-        who makes AP Human Geography topic review videos. He goes in-depth about
+        One of my biggest helpers throughout the year was{" "}
+        <a href="https://www.youtube.com/c/MrSinn">Mr.Sinn</a>, a youtuber who
+        makes AP Human Geography topic review videos. He goes in-depth about
         every single chapter in a specific unit and makes learning the content
         easy to understand. He also owns a Discord server in which AP Human
         Geography students can communicate, collaborate, and help each other

@@ -15,16 +15,16 @@ Unsplash</a>
 
 
 
-Hero Section Font:
-
+Fonts used:
+    
     Handlee by Joe Prince 
-
-Navbar Font:
 
     Lato by Łukasz Dziedzic
 
-Content Font:
     Libre Franklin by Impallari Type
+
+    Scada by Jovanny Lemonad
+
 
 
 Email Icon:
@@ -39,6 +39,10 @@ Twitter Icon:
     by Pixel Perfect 
     <a href="https://www.flaticon.com/free-icons/twitter" title="twitter icons">Twitter icons created by Pixel perfect - Flaticon</a>
 
+GitHub Icon:
+    by Pixel Perfect
+    <a href="https://www.flaticon.com/free-icons/github" title="github icons">Github icons created by Pixel perfect - Flaticon</a>
+
 
 Blogs Hero Image:
 
@@ -52,7 +56,7 @@ Blog Images:
 
     Lord of the Flies: https://www.rkikuojohnson.com/lord-of-the-flies
 
-    Freshman AP course studying: Photo by 
+    Freshman AP Human Geography Study: Photo by 
     <a href="https://unsplash.com/@geoffreykang_21?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">
     Jaeyoung Geoffrey Kang</a> on 
     <a href="https://unsplash.com/s/photos/studying?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
