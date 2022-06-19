@@ -15,7 +15,7 @@ export const blogs = [
   },
   {
     id: 3,
-    title: "How to start learning to code for free ",
+    title: "How to start learning to code for free",
     image: "images/learn-to-code.jpg",
     alt: "How to start learning to code for free",
     route: "/learn-to-code-free",
