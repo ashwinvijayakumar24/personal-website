@@ -39,7 +39,7 @@ export default function Footer() {
                 width="50px"
               />
             </a>
-            <p>Instagram- @thefamashwin</p>
+            <p>Instagram- @_ashwinv</p>
           </div>
           <div>
             <a
