@@ -13,9 +13,8 @@ export default function About() {
           to anyone who wants to learn the fundamentals of programming and
           technology. I strive to be a hardworking, ambitious, and positive
           person throughout my life's journey. I love to engage in many
-          activities such as playing soccer at my club and at my high school,
-          hanging out with friends, programming personal projects (like this
-          website), writing blogs on this website, and playing chess.
+          activities such as playing soccer, hanging out with friends, 
+          programming personal projects, writing blogs on this website, and playing chess.
         </p>
       </div>
       <img
