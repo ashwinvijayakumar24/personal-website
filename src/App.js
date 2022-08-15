@@ -8,6 +8,7 @@ import BlogsPage from "./components/blogs/BlogsPage";
 import LOTFReview from "./components/blogs/LOTF-Review";
 import APHumanStudy from "./components/blogs/AP-Human-Study";
 import LearnCodeFree from "./components/blogs/Learn-Code-Free";
+import AndrewTate from "./components/blogs/AndrewTate";
 import ComingSoon from "./components/blogs/Coming-Soon";
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
         <Route path="/lotf-review" element={<LOTFReview />} />
         <Route path="/ap-study-human-geography" element={<APHumanStudy />} />
         <Route path="/learn-to-code-free" element={<LearnCodeFree />} />
+        <Route path="/andrew-tate-opinion" element={<AndrewTate />} />
         <Route path="/coming-soon" element={<ComingSoon />} />
       </Routes>
       <Footer />

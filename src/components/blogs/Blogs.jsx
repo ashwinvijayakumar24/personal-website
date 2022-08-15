@@ -22,10 +22,10 @@ export const blogs = [
   },
   {
     id: 4,
-    title: "Coming Soon",
-    image: "",
-    alt: "Blog 4",
-    route: "/coming-soon",
+    title: "Opinion: Andrew Tate",
+    image: "images/andrewtate.jpg",
+    alt: "Opinion: Andrew Tate",
+    route: "/andrew-tate-opinion",
   },
   {
     id: 5,

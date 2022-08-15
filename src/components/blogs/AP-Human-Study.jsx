@@ -68,8 +68,7 @@ export default function APHumanStudy() {
         real exam in May.
         <br />
         <br />
-        Combining all of these methods, you can easily pass the AP Exam and
-        maybe even receive a 4 or 5!
+        Combining all of these methods, I easily earned a 5 on my exam and you can too!
       </p>
     </div>
   );
