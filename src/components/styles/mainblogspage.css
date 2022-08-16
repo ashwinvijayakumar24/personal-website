@@ -32,74 +32,49 @@
   line-height: 2rem;
 }
 
-.blog-cards {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-evenly;
-  justify-content: center;
-}
-
 .blog-containers {
   display: flex;
   flex-direction: column;
-  justify-content: flex-end;
-  margin-top: 2rem;
+  width: 100%;
+  text-align: center;
+  background-color: lightslategray;
 }
-.blog-captions {
+.blog-containers:nth-child(even) {
+  background-color: beige;
+}
+.blog-containers:hover {
+  opacity: 0.9;
+}
+.blog-title {
   font-family: "Libre Franklin", sans-serif;
   text-align: center;
   margin-top: 1rem;
+  cursor: pointer;
+  height: 10vh;
+  text-decoration: underline;
 }
-.blog-image {
-  border: 2px solid black;
-  border-radius: 5%;
-  height: 60vh;
-  width: 60vh;
-}
-
-.blog-image:hover {
-  opacity: 0.8;
-}
-
 /*Extra small devices (phones, 600px and down)*/
 @media only screen and (max-width: 600px) {
   .blogs-intro {
     width: 90%;
   }
-  .blog-image {
-    height: 30vh;
-    width: 30vh;
-  }
-  .blog-captions {
+  .blog-title {
     font-size: 0.8rem;
   }
 }
 @media only screen and (min-width: 600px) {
-  .blog-image {
-    height: 35vh;
-    width: 35vh;
-  }
-  .blog-captions {
+  .blog-title {
     font-size: 0.8rem;
   }
 }
 @media only screen and (min-width: 768px) {
-  .blog-image {
-    height: 40vh;
-    width: 40vh;
-  }
-  .blog-captions {
+  .blog-title {
     font-size: 0.8rem;
   }
 }
 
 @media only screen and (min-width: 992px) {
-  .blog-image {
-    height: 50vh;
-    width: 50vh;
-  }
-  .blog-captions {
+  .blog-title {
     font-size: 1rem;
   }
 }

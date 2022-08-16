@@ -7,20 +7,7 @@ function BlogContainer() {
   const objectItems = blogs.map((blog) => {
     return (
       <div className="blog-containers">
-        <div
-          className="blog-image"
-          style={{
-            backgroundImage: `url(${blog.image})`,
-            backgroundRepeat: "no-repeat",
-            backgroundSize: "cover",
-            backgroundPosition: "center",
-            alt: `${blog.alt}`,
-          }}
-          onClick={() => {
-            window.open(`${blog.route}`, "_blank");
-          }}
-        ></div>
-        <div className="blog-captions">{blog.title}</div>
+        <div className="blog-title" onClick={() => {window.open(blog.route, "_blank")}}><h2>{blog.title}</h2></div>
       </div>
     );
   });
@@ -51,7 +38,7 @@ export default function BlogsPage() {
             started to think of ideas on what I can do. My first thought was to
             be a freelancer for hire for front-end development, but considering
             the fact that I am only 15 and busy with school and
-            extracirriculars, it seemed like a poor idea. And plus, who knows
+            extracurriculars, it seemed like a poor idea. And plus, who knows
             how long it would take for someone to hire me. So I looked through
             the wonderful world of Google to find ideas and BAM! I saw that
             blogging was an option. At first, I didn't consider it at all as I
