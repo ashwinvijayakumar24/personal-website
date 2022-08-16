@@ -6,7 +6,8 @@ export default function APHumanStudy() {
   return (
     <div className="blog-content-container">
       <h1>How to Study for AP Human Geography</h1>
-      <h3>By: Ashwin Vijayakumar</h3>
+      <h2>By: Ashwin Vijayakumar</h2>
+      <h3>Date: 06/10/22</h3>
       <p>
         Right now, as I am writing this blog post, I am 15 years old and have
         just finished my freshman year of high school. Our school had 2

@@ -6,7 +6,8 @@ export default function LOTFReview() {
   return (
     <div className="blog-content-container">
       <h1>Lord of the Flies Review</h1>
-      <h3>By: Ashwin Vijayakumar</h3>
+      <h2>By: Ashwin Vijayakumar</h2>
+      <h3>Date: 06/09/22</h3>
       <p>
         Every summer in our school district for middle and high-schoolers, we
         have to do a summer reading project for the upcoming school year. It

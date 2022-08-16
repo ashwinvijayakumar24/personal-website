@@ -6,7 +6,8 @@ export default function AndrewTate() {
   return (
     <div className="blog-content-container">
       <h1>Opinion: Andrew Tate</h1>
-      <h3>By: Ashwin Vijayakumar</h3>
+      <h2>By: Ashwin Vijayakumar</h2>
+      <h3>Date: 08/14/22</h3>
       <p>
       If you spend any of your free time on social media platforms such as TikTok and Instagram, 
       you might have stumbled upon a figure named Andrew Tate. Andrew Tate is a former kickboxer 

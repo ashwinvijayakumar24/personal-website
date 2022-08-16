@@ -21,27 +21,7 @@ export const blogs = [
   },
   {
     id: 5,
-    title: "Coming Soon",
-    route: "/coming-soon",
-  },
-  {
-    id: 6,
-    title: "Coming Soon",
-    route: "/coming-soon",
-  },
-  {
-    id: 7,
-    title: "Coming Soon",
-    route: "/coming-soon",
-  },
-  {
-    id: 8,
-    title: "Coming Soon",
-    route: "/coming-soon",
-  },
-  {
-    id: 9,
-    title: "Coming Soon",
-    route: "/coming-soon",
+    title: "Opinion: Politics as a teenager",
+    route: "/politics-opinion",
   },
 ];

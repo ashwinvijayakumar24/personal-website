@@ -6,7 +6,8 @@ export default function LearnCodeFree() {
   return (
     <div className="blog-content-container">
       <h1>How to learn to code for free</h1>
-      <h3>By: Ashwin Vijayakumar</h3>
+      <h2>By: Ashwin Vijayakumar</h2>
+      <h3>Date: 06/22/22</h3>
       <p>
         My life as an emerging and aspiring programmer is hard. It was a
         struggle to learn even the fundamentals of programming and there is

@@ -10,6 +10,7 @@ import APHumanStudy from "./components/blogs/AP-Human-Study";
 import LearnCodeFree from "./components/blogs/Learn-Code-Free";
 import AndrewTate from "./components/blogs/AndrewTate";
 import ComingSoon from "./components/blogs/Coming-Soon";
+import PoliticsOpinion from "./components/blogs/PoliticsOpinion";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
         <Route path="/ap-study-human-geography" element={<APHumanStudy />} />
         <Route path="/learn-to-code-free" element={<LearnCodeFree />} />
         <Route path="/andrew-tate-opinion" element={<AndrewTate />} />
+        <Route path="/politics-opinion" element={<PoliticsOpinion />} />
         <Route path="/coming-soon" element={<ComingSoon />} />
       </Routes>
       <Footer />
