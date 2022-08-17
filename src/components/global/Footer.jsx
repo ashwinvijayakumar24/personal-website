@@ -28,7 +28,7 @@ export default function Footer() {
           </div>
           <div>
             <a
-              href="https://www.instagram.com/thefamashwin/"
+              href="https://www.instagram.com/_ashwinv/"
               target="_blank"
               rel="noreferrer"
             >
@@ -43,7 +43,7 @@ export default function Footer() {
           </div>
           <div>
             <a
-              href="https://twitter.com/thefamashwin/"
+              href="https://twitter.com/_ashwinv/"
               target="_blank"
               rel="noreferrer"
             >
@@ -54,7 +54,7 @@ export default function Footer() {
                 width="50px"
               />
             </a>
-            <p>Twitter- @thefamashwin</p>
+            <p>Twitter- @_ashwinv</p>
           </div>
           <div>
             <a
