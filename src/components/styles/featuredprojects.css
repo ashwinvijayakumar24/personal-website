@@ -1,0 +1,19 @@
+@import 'react-awesome-slider/dist/styles.css';
+
+.featured-projects > h2{
+  font-family: "Libre Franklin", sans-serif;
+  text-align: center;
+  margin-top: 2rem;
+}
+.slider-container {
+  width: 55%;
+  margin: auto;
+  margin-top: 2rem;
+  border: 5px solid black;
+  border-radius: 5%;
+  z-index: 0;
+
+}
+.slider-container div {
+  border-radius: 4%;
+}

@@ -14,11 +14,11 @@ export default function About() {
           technology. I strive to be a hardworking, ambitious, and positive
           person throughout my life's journey. I love to engage in many
           activities such as playing soccer, hanging out with friends, 
-          programming personal projects, writing blogs on this website, and playing chess.
+          programming personal projects, and writing blogs on this website.
         </p>
       </div>
       <img
-        src="images/about-me-pic.jpg"
+        src="images/experience-pic.jpg"
         alt="My Pic"
         height="30%"
         width="30%"

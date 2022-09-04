@@ -37,13 +37,16 @@
   flex-direction: column;
   width: 100%;
   text-align: center;
-  background-color: lightslategray;
+  background-color: rgba(135,206,250, 0.5);
 }
 .blog-containers:nth-child(even) {
-  background-color: beige;
+  background-color: lightgoldenrodyellow;
 }
 .blog-containers:hover {
-  opacity: 0.9;
+  background-color: rgba(135,206,250, 1);
+}
+.blog-containers:nth-child(even):hover {
+  background-color: goldenrod;
 }
 .blog-title {
   font-family: "Libre Franklin", sans-serif;

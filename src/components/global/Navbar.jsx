@@ -13,9 +13,9 @@ export default function NavBar() {
         </a>
       </div>
       <button id="toggle-button" onClick={handleToggle}>
-        <span class="bar"></span>
-        <span class="bar"></span>
-        <span class="bar"></span>
+        <span className="bar"></span>
+        <span className="bar"></span>
+        <span className="bar"></span>
       </button>
       <div className="navbar-links" id={isActive ? null : "active"}>
         <ul>
@@ -25,7 +25,7 @@ export default function NavBar() {
             </a>
           </li>
           <li>
-            <a href="/#projects" onClick={handleToggle}>
+            <a href="/projects" onClick={handleToggle}>
               Projects
             </a>
           </li>
@@ -34,6 +34,11 @@ export default function NavBar() {
               Blogs
             </a>
           </li>
+          {/* <li className="shop">
+            <a href="/shop" onClick={handleToggle}>
+              Shop
+            </a>
+          </li> */}
         </ul>
       </div>
     </div>

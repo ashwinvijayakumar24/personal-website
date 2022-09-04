@@ -7,6 +7,8 @@
   align-items: center;
   font-family: "Lato", sans-serif;
   background-color: rgb(56, 55, 55);
+  z-index: 1;
+
 }
 
 .navbar-links ul {
@@ -18,6 +20,7 @@
   text-decoration: none;
   display: block;
   padding: 2rem;
+  padding-left: 2rem;  /*change this to 3-4rem after adding shop button*/
   font-size: 1.2rem;
 }
 
@@ -50,6 +53,10 @@
   border-radius: 5px;
   margin-top: 0.2rem;
 }
+
+/* .shop {
+  background-color: orangered;
+} */
 
 /*Extra small devices (phones, 600px and down)*/
 @media only screen and (max-width: 600px) {

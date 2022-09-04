@@ -4,6 +4,7 @@ import "./App.css";
 import NavBar from "./components/global/Navbar";
 import Footer from "./components/global/Footer";
 import Home from "./components/home/Home";
+import Projects from "./components/projects/Projects";
 import BlogsPage from "./components/blogs/BlogsPage";
 import LOTFReview from "./components/blogs/LOTF-Review";
 import APHumanStudy from "./components/blogs/AP-Human-Study";
@@ -18,6 +19,7 @@ function App() {
       <NavBar />
       <Routes>
         <Route exact path="/" element={<Home />} />
+        <Route exact path="/blogs" element={<Projects />} />
         <Route path="/blogs" element={<BlogsPage />} />
         <Route path="/lotf-review" element={<LOTFReview />} />
         <Route path="/ap-study-human-geography" element={<APHumanStudy />} />
