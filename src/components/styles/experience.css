@@ -2,35 +2,45 @@
     display: flex;
     justify-content: space-evenly;
     padding-top: 5rem;
+    background-color: darkgrey;
+    padding-bottom: 5rem;
   }
   .experience-text {
     width: 50%;
     font-family: "Libre Franklin", sans-serif;
-    line-height: 2rem;
     text-align: center;
   }
   .experience img {
     border: 2px solid black;
     border-radius: 10%;
   }
-  
-  .experience-text p {
-    margin-top: 1rem;
+
+  .experience-grid h2{
+    font-family: 'Lato', sans-serif;
+  }
+
+  .experience-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    gap: 4rem;
+    margin-top: 3rem;
   }
   
   /*Extra small devices (phones, 600px and down)*/
-  @media only screen and (max-width: 600px) {
-    .experience {
-      flex-direction: column;
-      align-items: center;
+  @media only screen and (max-width: 768px) {
+    .experience img {
+      display: none;
+    }
+    .experience-grid {
+      margin-top: 2rem;
+    }
+    .experience-grid h2{
+      font-size: 1rem;
+      margin: auto;
     }
     .experience-text {
-      width: 90%;
-      margin-bottom: 1rem;
-    }
-    .experience img {
-      height: 50%;
-      width: 50%;
+      width:80%;
     }
   }
   

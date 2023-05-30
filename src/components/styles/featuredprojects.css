@@ -1,19 +1,60 @@
 @import 'react-awesome-slider/dist/styles.css';
 
-.featured-projects > h2{
+.featured-projects {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+.featured-projects > h1{
   font-family: "Libre Franklin", sans-serif;
   text-align: center;
-  margin-top: 2rem;
 }
 .slider-container {
-  width: 55%;
+  width: 50%;
   margin: auto;
   margin-top: 2rem;
-  border: 5px solid black;
+  border: 2px solid black;
   border-radius: 5%;
   z-index: 0;
+  opacity: 1;
 
 }
 .slider-container div {
-  border-radius: 4%;
+  border-radius: 5%;
+  font-family: 'Libre Franklin', sans-serif;
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+  width: 100%;
 }
+.featured-projects > h4{
+  font-family: "Lato", sans-serif;
+  text-align: center;
+  margin-top: 2rem;
+}
+.featured-projects > h4 > a {
+  color: darkblue;
+}
+.slider-caption {
+  background-color: #e5cd8a;
+  padding: 0.5rem;
+  text-align: center;
+}
+
+/*Extra small devices (phones, 600px and down)*/
+@media only screen and (max-width: 600px) {
+  .slider-caption {
+    font-size: 0.5rem;
+  }
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+/* @media only screen and (min-width: 768px) {...} */
+
+/* Large devices (laptops/desktops, 992px and up) */
+/* @media only screen and (min-width: 992px) {...} */
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+/* @media only screen and (min-width: 1200px) {...} */

@@ -73,12 +73,12 @@ export default function Footer() {
           </div>
         </div>
         <div className="copyright-notice">
-          <h5>Copyright © 2022 Ashwin Vijayakumar </h5>
+          <h5>Copyright © 2023 Ashwin Vijayakumar </h5>
         </div>
       </div>
       <div className="links">
-        <a href="/#about-me">About Me</a>
-        <a href="/#projects">Projects</a>
+        <a href="/">About Me</a>
+        <a href="/projects">Projects</a>
         <a href="/blogs">Blogs</a>
       </div>
     </div>

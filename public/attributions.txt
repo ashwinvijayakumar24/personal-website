@@ -1,17 +1,7 @@
 Website made using React.js, a Javascript library
 
-Website hosted by
+Website hosted by Netlify
 
-
-
-
-Background Hero Image: 
-
-Photo by 
-<a href="https://unsplash.com/@karmatheux?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">
-Matheus Farias</a> on 
-<a href="https://unsplash.com/s/photos/gradient-background?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">
-Unsplash</a>
 
 
 
@@ -44,25 +34,27 @@ GitHub Icon:
     <a href="https://www.flaticon.com/free-icons/github" title="github icons">Github icons created by Pixel perfect - Flaticon</a>
 
 
+
+Background Hero Image: 
+
+    Photo by 
+    <a href="https://unsplash.com/@karmatheux?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">
+    Matheus Farias</a> on 
+    <a href="https://unsplash.com/s/photos/gradient-background?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+
 Blogs Hero Image:
 
     Photo by <a href="https://unsplash.com/@kellysikkema?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">
     Kelly Sikkema</a> on 
     <a href="https://unsplash.com/s/photos/pencil-and-paper?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
   
+Projects Hero Image:
 
-
-Blog Images:
-
-    Lord of the Flies: https://www.rkikuojohnson.com/lord-of-the-flies
-
-    Freshman AP Human Geography Study: Photo by 
-    <a href="https://unsplash.com/@geoffreykang_21?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">
-    Jaeyoung Geoffrey Kang</a> on 
-    <a href="https://unsplash.com/s/photos/studying?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-    
-    Start to learn to code for free: Photo by 
-    <a href="https://unsplash.com/@afgprogrammer?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">
-    Mohammad Rahmani</a> on 
-    <a href="https://unsplash.com/s/photos/coding?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+    Photo by <a href="https://unsplash.com/@georgie_cobbs?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">
+    Georgie Cobbs</a> on 
+    <a href="https://unsplash.com/backgrounds/desktop/computer?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
   
+
+
+
+Featured Projects Slider: React Awesome Slider by Rafael Caferati - https://github.com/rcafera

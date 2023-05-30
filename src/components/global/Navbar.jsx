@@ -20,8 +20,8 @@ export default function NavBar() {
       <div className="navbar-links" id={isActive ? null : "active"}>
         <ul>
           <li>
-            <a href="/#about-me" onClick={handleToggle}>
-              About Me
+            <a href="/" onClick={handleToggle}>
+              Home
             </a>
           </li>
           <li>
@@ -34,11 +34,6 @@ export default function NavBar() {
               Blogs
             </a>
           </li>
-          {/* <li className="shop">
-            <a href="/shop" onClick={handleToggle}>
-              Shop
-            </a>
-          </li> */}
         </ul>
       </div>
     </div>

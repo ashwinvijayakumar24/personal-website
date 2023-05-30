@@ -2,7 +2,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url("../../../public/images/background.jpg");
   height: 60vh;
   background-repeat: no-repeat;
   background-position: center;
@@ -18,4 +17,12 @@
 .hero-content > p {
   font-family: "Handlee", cursive;
   text-align: center;
+}
+
+#home-hero {
+  background-image: url("../../../public/images/background.jpg");
+}
+
+#projects-hero {
+  background-image: url("../../../public/images/projects-hero.jpg")
 }

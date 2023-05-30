@@ -1,7 +1,6 @@
 import React from "react";
 import "../styles/featuredprojects.css";
 import AwesomeSlider from "react-awesome-slider";
-import 'react-awesome-slider/dist/custom-animations/cube-animation.css';
 
 
 
@@ -9,12 +8,25 @@ import 'react-awesome-slider/dist/custom-animations/cube-animation.css';
 export default function FeaturedProjects() {
   return (
     <div className="featured-projects" id="featured-projects">
-      <h2>Featured Projects</h2>
-      <AwesomeSlider className='slider-container' animation="cubeAnimation" bullets={false}>
-        <div data-src="/images/ig-bot-pic.png" />
-        <div data-src="/images/math-program-pic.png" />
-        <div data-src="/images/math-app.png" />
+      <h1>Featured Projects</h1>
+      <AwesomeSlider className='slider-container' bullets={false}>
+        <div style={{backgroundImage: 'url("images/ig-bot-pic.png")', width: '100%', height: '100%', backgroundRepeat: 'no-repeat', backgroundSize: 'cover'}}>
+          <div className="slider-caption">
+            <h1>Instagram Bot</h1>
+          </div>
+        </div>
+        <div style={{backgroundImage: 'url("images/code-wizdom-pic.png")', width: '100%', height: '100%', backgroundRepeat: 'no-repeat', backgroundSize: 'cover'}}>
+          <div className="slider-caption">
+            <h1>Code Wizdom</h1>
+          </div>
+        </div>
+        <div style={{backgroundImage: 'url("images/math-app-slideshow.png")', width: '100%', height: '100%', backgroundRepeat: 'no-repeat', backgroundSize: 'cover'}}>
+          <div className="slider-caption">
+            <h1>Math Program (App)</h1>
+          </div>
+        </div>
       </AwesomeSlider>
+      <h4><a href="/projects">See all of my projects in development here</a></h4>
     </div>
   );
 }

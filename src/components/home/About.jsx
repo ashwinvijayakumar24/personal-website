@@ -5,9 +5,9 @@ export default function About() {
   return (
     <div className="about-me" id="about-me">
       <div className="about-me-text">
-        <h3>About Me</h3>
+        <h1>About Me</h1>
         <p>
-          Hello! I'm Ashwin Vijayakumar. I am a 10th grader at Shadow Creek High
+          Hello! I'm Ashwin Vijayakumar. I am an 11th grader at Shadow Creek High
           School in Pearland, Texas, USA. I am the co-founder of Code Wizdom, a
           non-profit organization that aims to provide free programming courses
           to anyone who wants to learn the fundamentals of programming and
@@ -18,10 +18,10 @@ export default function About() {
         </p>
       </div>
       <img
-        src="images/experience-pic.jpg"
+        src="images/grad-party.jpg"
         alt="My Pic"
-        height="30%"
-        width="30%"
+        height="40%"
+        width="40%"
       />
     </div>
   );

@@ -9,9 +9,7 @@ import BlogsPage from "./components/blogs/BlogsPage";
 import LOTFReview from "./components/blogs/LOTF-Review";
 import APHumanStudy from "./components/blogs/AP-Human-Study";
 import LearnCodeFree from "./components/blogs/Learn-Code-Free";
-import AndrewTate from "./components/blogs/AndrewTate";
 import ComingSoon from "./components/blogs/Coming-Soon";
-import PoliticsOpinion from "./components/blogs/PoliticsOpinion";
 
 function App() {
   return (
@@ -19,13 +17,11 @@ function App() {
       <NavBar />
       <Routes>
         <Route exact path="/" element={<Home />} />
-        <Route exact path="/blogs" element={<Projects />} />
+        <Route exact path="/projects" element={<Projects />} />
         <Route path="/blogs" element={<BlogsPage />} />
         <Route path="/lotf-review" element={<LOTFReview />} />
         <Route path="/ap-study-human-geography" element={<APHumanStudy />} />
         <Route path="/learn-to-code-free" element={<LearnCodeFree />} />
-        <Route path="/andrew-tate-opinion" element={<AndrewTate />} />
-        <Route path="/politics-opinion" element={<PoliticsOpinion />} />
         <Route path="/coming-soon" element={<ComingSoon />} />
       </Routes>
       <Footer />

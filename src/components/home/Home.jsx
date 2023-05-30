@@ -1,7 +1,7 @@
 import Hero from "./Hero";
 import About from "./About";
-import FeaturedProjects from "./FeaturedProjects";
 import Experience from "./Experience"
+import FeaturedProjects from "./FeaturedProjects";
 
 export default function Home() {
   return (

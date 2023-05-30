@@ -10,6 +10,7 @@
 .blog-content-container p {
   width: 50%;
   margin-top: 2rem;
+  line-height: 2.5rem;
 }
 
 .blog-content-container p a {
