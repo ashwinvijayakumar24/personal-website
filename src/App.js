@@ -10,6 +10,7 @@ import LOTFReview from "./components/blogs/LOTF-Review";
 import APHumanStudy from "./components/blogs/AP-Human-Study";
 import LearnCodeFree from "./components/blogs/Learn-Code-Free";
 import ComingSoon from "./components/blogs/Coming-Soon";
+import NHIEReview from "./components/blogs/NHIE-Review";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
         <Route path="/lotf-review" element={<LOTFReview />} />
         <Route path="/ap-study-human-geography" element={<APHumanStudy />} />
         <Route path="/learn-to-code-free" element={<LearnCodeFree />} />
+        <Route path="/nhie-review" element={<NHIEReview />} />
         <Route path="/coming-soon" element={<ComingSoon />} />
       </Routes>
       <Footer />
