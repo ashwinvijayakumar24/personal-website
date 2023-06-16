@@ -19,9 +19,9 @@ export const blogs = [
   },
   {
     id: 4,
-    title: "Coming Soon!",
-    route: "/coming-soon",
-    image: "images/white-image.png",
+    title: "Never Have I Ever: A Mindy Kaling Fantasy",
+    route: "/nhie-review",
+    image: "images/nhie.jpg",
   },
   {
     id: 5,
