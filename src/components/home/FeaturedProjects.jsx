@@ -20,9 +20,9 @@ export default function FeaturedProjects() {
             <h1>Code Wizdom</h1>
           </div>
         </div>
-        <div style={{backgroundImage: 'url("images/math-app-slideshow.png")', width: '100%', height: '100%', backgroundRepeat: 'no-repeat', backgroundSize: 'cover'}}>
+        <div style={{backgroundImage: 'url("images/math-program-slideshow.png")', width: '100%', height: '100%', backgroundRepeat: 'no-repeat', backgroundSize: 'cover'}}>
           <div className="slider-caption">
-            <h1>Math Program (App)</h1>
+            <h1>Practice Arithmetic Math (Website)</h1>
           </div>
         </div>
       </AwesomeSlider>

@@ -29,7 +29,12 @@
     text-align: center;
     margin-top: 1rem;
 }
-
+.project-grid-container a {
+    color:blue;
+}
+.project-grid-container a:hover {
+    opacity: 0.8;
+}
 .project-grid-container p {
     font-size: 1.3rem;
     line-height: 2rem;
