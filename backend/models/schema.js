@@ -5,7 +5,9 @@ const blogsSchema = new Schema({
     id: {type:Number},
     title: {type:String},
     description: {type:String},
-    route: {type:String}
+    route: {type:String},
+    date: {type:String},
+    content: {type:String}
 })
 
 

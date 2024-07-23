@@ -16,7 +16,7 @@ function App() {
 
     useEffect(() => {
         const getBlogs = async () => {
-            await axios.get('http://localhost:5000/api/blogs')
+            await axios.get('https://personal-website-2v8c.onrender.com/api/blogs')
             .then(response => {
                 setBlogs(response.data)
             })
