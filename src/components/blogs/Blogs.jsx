@@ -1,62 +1,22 @@
-export const blogs = [
-  {
-    id: 1,
-    title: "Lord of the Flies Book Review",
-    route: "/lotf-review",
-    image: "images/lotf.jpg",
-  },
-  {
-    id: 2,
-    title: "Studying for AP Human Geography",
-    route: "/ap-study-human-geography",
-    image: "images/aphug.png",
-  },
-  {
-    id: 3,
-    title: "How to Start Learning to Code for Free",
-    route: "/learn-to-code-free",
-    image: "images/codingbg.jpg",
-  },
-  {
-    id: 4,
-    title: "Never Have I Ever: A Mindy Kaling Fantasy",
-    route: "/nhie-review",
-    image: "images/nhie.jpg",
-  },
-  {
-    id: 5,
-    title: "Coming Soon!",
-    route: "/coming-soon",
-    image: "images/white-image.png",
-  },
-  {
-    id: 6,
-    title: "Coming Soon!",
-    route: "/coming-soon",
-    image: "images/white-image.png",
-  },
-  {
-    id: 7,
-    title: "Coming Soon!",
-    route: "/coming-soon",
-    image: "images/white-image.png",
-  },
-  {
-    id: 8,
-    title: "Coming Soon!",
-    route: "/coming-soon",
-    image: "images/white-image.png",
-  },
-  {
-    id: 9,
-    title: "Coming Soon!",
-    route: "/coming-soon",
-    image: "images/white-image.png",
-  },
-  {
-    id: 10,
-    title: "Coming Soon!",
-    route: "/coming-soon",
-    image: "images/white-image.png",
-  },
-];
+import React from 'react';
+import blogs_hero from '../../assets/images/heros/new_blog_hero.avif';
+import BlogsGrid from './BlogsGrid';
+
+const Blogs = ({blogs}) => {
+    document.title = 'Blogs'
+    return (
+        <div>
+            <div style={{backgroundImage: `url(${blogs_hero})`, fontFamily: 'Handlee'}} className="min-h-screen flex items-center justify-center text-white m-auto ">
+                <div className="mt-12">
+                    <div className="text-center px-4 space-y-6 m-auto leading-loose basis-1/2 w-full text-black">  
+                        <div className="text-4xl md:max-lg:text-5xl lg:text-6xl font-bold p-4">My Blogs</div>
+                        <h2 className="text-lg md:max-lg:text-xl lg:text-2xl">Thoughts | Narratives | Opinions</h2>
+                    </div>
+                </div>
+            </div>
+            <BlogsGrid blogs={blogs}/>
+        </div>
+    )
+}
+
+export default Blogs;

@@ -1,32 +1,44 @@
-import React from "react";
+import {useState, useEffect} from "react";
+import axios from "axios";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import "./App.css";
+import "./index.css";
 import NavBar from "./components/global/Navbar";
 import Footer from "./components/global/Footer";
+import ScrollToTop from './components/global/ScrollToTop';
 import Home from "./components/home/Home";
-import Projects from "./components/projects/Projects";
-import BlogsPage from "./components/blogs/BlogsPage";
-import LOTFReview from "./components/blogs/LOTF-Review";
-import APHumanStudy from "./components/blogs/AP-Human-Study";
-import LearnCodeFree from "./components/blogs/Learn-Code-Free";
-import ComingSoon from "./components/blogs/Coming-Soon";
-import NHIEReview from "./components/blogs/NHIE-Review";
+import Blogs from './components/blogs/Blogs';
+import SingleBlog from "./components/blogs/SingleBlog";
+import Error from "./components/error/Error";
 
 function App() {
+
+  const [blogs, setBlogs] = useState([])
+
+    useEffect(() => {
+        const getBlogs = async () => {
+            await axios.get('http://localhost:5000/api/blogs')
+            .then(response => {
+                setBlogs(response.data)
+            })
+            .catch(err => console.log(err));
+        }
+        getBlogs();
+    }, [])
+
+
   return (
     <Router>
-      <NavBar />
-      <Routes>
-        <Route exact path="/" element={<Home />} />
-        <Route exact path="/projects" element={<Projects />} />
-        <Route path="/blogs" element={<BlogsPage />} />
-        <Route path="/lotf-review" element={<LOTFReview />} />
-        <Route path="/ap-study-human-geography" element={<APHumanStudy />} />
-        <Route path="/learn-to-code-free" element={<LearnCodeFree />} />
-        <Route path="/nhie-review" element={<NHIEReview />} />
-        <Route path="/coming-soon" element={<ComingSoon />} />
-      </Routes>
-      <Footer />
+      <ScrollToTop/>
+        <NavBar />
+        <Routes>
+          <Route exact path="/" element={<Home />} />
+          <Route exact path="/blogs" element={<Blogs blogs={blogs}/>} />
+          {blogs.map((blog, index) => (
+            <Route key={index} exact path={`/blogs${blog.route}`} element={<SingleBlog blog={blog}/>}/>
+          ))}
+          <Route path="*" element={<Error />} />
+        </Routes>
+        <Footer />
     </Router>
   );
 }
