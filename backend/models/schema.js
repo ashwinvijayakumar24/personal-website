@@ -7,7 +7,8 @@ const blogsSchema = new Schema({
     description: {type:String},
     route: {type:String},
     date: {type:String},
-    content: {type:String}
+    content: {type:String},
+    year: {type: String}
 })
 
 

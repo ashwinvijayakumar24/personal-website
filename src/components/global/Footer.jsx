@@ -34,7 +34,7 @@ const Footer = () =>  {
             </div>
           </div>
           <nav className="flex flex-row space-x-8 mx-auto basis-1/4 lg:max-xl:basis-1/3 items-center justify-center">
-            <Link to="/blogs" className="hover:underline text-white">Blogs</Link>
+            <Link to="/blogs" className="hover:underline text-white">Film Reviews</Link>
           </nav>
       </div>
       <div className="mx-auto mt-4">

@@ -13,7 +13,7 @@ const About = () => {
           I strive to be a hardworking, ambitious, and positive
           person throughout my life's journey. I love to engage in many
           activities such as programming personal projects, hanging out with friends,
-          playing sports, and writing blogs on this website.
+          playing sports, and writing movie reviews on this website!
         </p>
       </div>
       <div className="rounded-lg bg-amber-400  mx-auto p-6 space-y-4">

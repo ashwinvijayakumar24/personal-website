@@ -21,7 +21,7 @@ const Navbar = () => {
           </a>
         </div>
         <div className="hidden md:flex space-x-12 mr-8">
-          <Link to="/blogs" className="hover:underline px-4 py-2 ">Read My Blogs!</Link>
+          <Link to="/blogs" className="hover:underline px-4 py-2 ">Film Reviews</Link>
         </div>
         <div className="md:hidden">
           <button onClick={toggleMenu} className="focus:outline-none">
@@ -45,7 +45,7 @@ const Navbar = () => {
       {isOpen && (
         <div className="md:hidden">
           <div className="flex flex-col space-y-4 px-4 pb-4 bg-neutral-900">
-            <a href="/blogs" onClick={toggleMenu}className="hover:underline px-4 py-2 text-center">Read My Blogs!</a>
+            <a href="/blogs" onClick={toggleMenu}className="hover:underline px-4 py-2 text-center">Film Reviews</a>
           </div>
         </div>
       )}
