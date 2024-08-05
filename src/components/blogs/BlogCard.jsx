@@ -13,8 +13,8 @@ const BlogCard = ({blog}) => {
     return(
         <div className="flex flex-col md:flex-row items-center md:w-3/4 mx-auto bg-amber-600 text-white p-8 rounded-lg shadow-md hover:shadow-lg hover:scale-105 transition-transform cursor-pointer space-y-4" onClick={handleClick}>
             <div className='space-y-6 w-2/3 mx-auto'>
-              <h3 className="text-xl md:max-lg:text-2xl lg:text-3xl font-bold">{blog.title}</h3>
-              <p className=' text-md leading-loose md:max-lg:text-lg md:max-lg:leading-loose lg:text-xl lg:leading-loose'>{blog.description}</p>
+              <h3 className="text-xl md:max-lg:text-2xl lg:text-3xl font-bold text-black">{blog.title}</h3>
+              <p className=' text-md leading-loose md:max-lg:text-lg md:max-lg:leading-loose lg:text-xl lg:leading-loose text-black'>{blog.description}</p>
             </div>
         </div>
     )

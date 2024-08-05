@@ -15,9 +15,9 @@ const SingleBlog = ({blog}) => {
                 <div className="text-gray-500 mb-6 text-center font-semibold">
                     Published on: {blog.date}
                 </div>
-                <div className="text-gray-800 w-3/4 mx-auto">
+                <div className="w-3/4 mx-auto">
                     {blogBody.map((segment, index) => (
-                        <p className="text-md leading-loose md:max-lg:text-lg md:max-lg:leading-loose lg:text-xl lg:leading-loose" key={index}>{segment}<br/><br/></p>
+                        <p className="text-md text-black leading-loose md:max-lg:text-lg md:max-lg:leading-loose lg:text-xl lg:leading-loose" key={index}>{segment}<br/><br/></p>
                     ))}
                 </div>
             </div>
