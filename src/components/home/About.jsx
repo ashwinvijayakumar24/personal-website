@@ -11,8 +11,9 @@ const About = () => {
           School in Pearland, Texas. I am the founder of Code Wizdom, a
           non-profit organization that provides one-on-one online tutoring in programming and web development. 
           I strive to be a hardworking, ambitious, and positive
-          person throughout my life's journey. I love to engage in many
-          activities such as programming personal projects, hanging out with friends,
+          person throughout my life's journey. Currently, I'm diving into
+          the realm of machine learning and AI, specifically working with Scikit-Learn and Pytorch.
+          I love to engage in many activities such as programming personal projects, hanging out with friends,
           playing sports, and writing movie reviews on this website!
         </p>
       </div>

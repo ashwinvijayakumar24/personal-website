@@ -1,9 +1,9 @@
 import React from "react";
 import hosa_award from '../../assets/images/solos/hosa_award.jpg';
-import { FaPython, FaJava, FaReact, FaNodeJs, FaHtml5, FaGithub,   } from "react-icons/fa6";
+import { FaPython, FaJava, FaReact, FaNodeJs, FaHtml5} from "react-icons/fa6";
 import { IoLogoJavascript, IoPencil,  } from "react-icons/io5";
 import { DiMongodb, DiMysql  } from "react-icons/di";
-import { SiMatrix } from "react-icons/si";
+import { SiMatrix, SiScikitlearn } from "react-icons/si";
 import { TbMathIntegral } from "react-icons/tb";
 import { IconContext } from "react-icons";
 
@@ -22,6 +22,10 @@ const Experience = () => {
                   <div className="flex flex-row justify-center items-center space-x-5 mx-auto p-4">
                     <FaPython/> 
                     <h2 className="text-lg md:max-lg:text-xl lg:text-2xl">Python</h2>
+                  </div>
+                  <div className="flex flex-row justify-center items-center space-x-5 mx-auto p-4">
+                    <SiScikitlearn/> 
+                    <h2 className="text-lg md:max-lg:text-xl lg:text-2xl">Scikit-Learn</h2> 
                   </div>
                   <div className="flex flex-row justify-center items-center space-x-5 mx-auto p-4">
                     <FaJava/> 
@@ -50,10 +54,6 @@ const Experience = () => {
                   <div className="flex flex-row justify-center items-center space-x-5 mx-auto p-4">
                     <DiMysql/> 
                     <h2 className="text-lg md:max-lg:text-xl lg:text-2xl">SQL</h2> 
-                  </div>
-                  <div className="flex flex-row justify-center items-center space-x-5 mx-auto p-4">
-                    <FaGithub/> 
-                    <h2 className="text-lg md:max-lg:text-xl lg:text-2xl">Git</h2> 
                   </div>
                   <div className="flex flex-row justify-center items-center space-x-5 mx-auto p-4">
                     <TbMathIntegral/> 

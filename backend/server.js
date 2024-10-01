@@ -3,9 +3,9 @@ const mongoose = require('mongoose');
 const bodyParser = require('body-parser');
 const cors = require('cors');
 const router = require('./routes/router');
-const cron = require('node-cron');
-const axios = require('axios')
-// require('dotenv/config');
+// const cron = require('node-cron');
+// const axios = require('axios')
+require('dotenv/config');
 
 
 const app = express();
